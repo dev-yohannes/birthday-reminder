@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+li p {
+  margin: 0 10px;
+}
+
+li p:nth-child(2) {
+  color: gray;
+}
+
+.profile-pic {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  border-radius: 50%;
+}
